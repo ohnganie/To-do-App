@@ -16,16 +16,16 @@ TYPESCRIPT
 CSS
  
 
- ## Getting Started
+ ### Getting Started
  Clone the repo on your system,find the index.html file and open in your browser.
 
- ## Authors
+ ### Authors
  Magwala Ongani
 
- ## Contributing
+ ### Contributing
  Contributions, issues and feature requests are welcome.
 
- ## show your support
+ ### show your support
  please give a star if you like the project
 
 

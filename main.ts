@@ -2,7 +2,7 @@ const inputDescription = document.querySelector('#filter') as HTMLInputElement;
 const inputForm = document.querySelector('form')!;
 const newDiv = document.querySelector('#items') as HTMLDivElement;
 
-
+let myArray: string[]=[];
 interface ProjectInterface {
     description: string;
 }
@@ -20,8 +20,11 @@ inputForm.addEventListener('submit', (e) => {
     e.preventDefault(); 
 
     const entry = new todo_List(inputDescription.value);
-
-    newDiv.innerText = entry.hello();
+    let val = entry.hello();
+    myArray.push(val);
+    arr = myArray.join('\r\n');
+    newDiv.innerText = arr;
+    /*newDiv.innerText = entry.hello();*/
     const check = document.createElement("input");
     check.setAttribute("type","checkbox");
 
